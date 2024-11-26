@@ -10,8 +10,9 @@ Running the following script sets useful defaults for the Proxmox VE installatio
 - Adds the `pvetest` repository to provide access to new features and updates before they are officially released
 - Disables the Proxmox high availability services to reclaim system resources when using a single node instead of a cluster
 
-https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install
-
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/misc/post-pve-install.sh)"
 ```
+
+## References
+[1] https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install
