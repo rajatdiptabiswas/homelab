@@ -272,6 +272,9 @@ root@optiplex:~# echo "/dev/pve/drive /mnt/drive ext4 defaults 0 0" >> /etc/fsta
 ![](/attachments/proxmox-local-drive-storage.png)
 
 ## References
+
 [1] https://pve.proxmox.com/pve-docs/chapter-pvesm.html
+
 [2] https://pve.proxmox.com/wiki/Logical_Volume_Manager_(LVM)
+
 [3] https://forum.proxmox.com/threads/local-lvm.116289/post-503227
