@@ -12,11 +12,11 @@ We can now VNC to the VM 100 using `<Proxmox IP>:5955`.
 
 macOS Screen Sharing app requires a password to be set on the VNC server.
 
-![](attachments/macos-screen-sharing-password.png)
+![](/attachments/macos-screen-sharing-password.png)
 
 Need to add `password=on` to the line `args: -vnc 0.0.0.0:55`.
 
-![](attachments/proxmox-edit-vnc-config.png)
+![](/attachments/proxmox-edit-vnc-config.png)
 
 Go to the VM 100's 'Monitor' page and set the password using
 
